@@ -85,6 +85,6 @@ for i=1:0.5:numberOfRows
         drawnow;
     end
 end
-save("C:\Users\Alex Zhang\Documents\MATLAB\big_basis.mat", "big_basis")
+save("big_basis.mat", "big_basis")
 
 [u,s,v] = svd(big_basis);
